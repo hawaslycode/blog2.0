@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// Importamos los iconos específicos que necesitamos de FontAwesome 6
 import { FaCode, FaFileMedical, FaBars, FaXmark } from 'react-icons/fa6';
 
 function Navbar() {
@@ -8,7 +7,8 @@ function Navbar() {
   return (
     <nav
       id="navbar"
-      className="fixed top-0 w-full z-[100] bg-brand-deep/80 backdrop-blur-md border-b border-white/5 transition-all duration-300"
+      className="fixed top-0 w-full z-[100] bg-brandDark backdrop-blur-md border-b border-white/5 transition-all duration-300"
+      
     >
       <div className="max-w-screen-2xl mx-auto px-4 h-14 flex items-center justify-between">
         
@@ -43,11 +43,6 @@ function Navbar() {
             {/* Icono del archivo/CV de React Icons */}
             <FaFileMedical className="text-brand-light/70 hover:text-brand-light text-lg transition-colors" />
           </a>
-
-          {/* Avatar con tus colores corporativos */}
-          <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-brand-dark to-brand-light border border-white/10 flex items-center justify-center overflow-hidden cursor-pointer shadow-lg">
-            <span className="text-[10px] font-bold text-brand-deep uppercase">JH</span>
-          </div>
 
           {/* Botón de Menú Móvil (Hamburguesa / X) */}
           <button

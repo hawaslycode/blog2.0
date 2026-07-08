@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="min-h-screen bg-brandDark text-white font-sans selection:bg-brandGreen selection:text-brandDark">
       <Navbar />
-      <main className="mt-20 px-4">
+      <main className="px-4">
         <Hero />
         <About />
         <Projects />

@@ -105,7 +105,7 @@ function About() {
             { cat: 'Estructura', name: 'HTML5 & CSS3', desc: 'Semántica y accesibilidad web' },
           ].map((tech, i) => (
             <div key={i} className="p-4 bg-brandLight/50 border border-white/5 rounded-xl hover:border-brandGreen/50 transition-all group">
-              <span className="text-xs text-gray-500 font-mono mb-2 block">{tech.cat}</span>
+              <span className="text-xs rounded border-2 bg-gray-800 font-mono mb-2 block">{tech.cat}</span>
               <h4 className="text-white font-medium group-hover:text-brandGreen">{tech.name}</h4>
               <p className="text-[11px] text-gray-400 mt-1">{tech.desc}</p>
             </div>

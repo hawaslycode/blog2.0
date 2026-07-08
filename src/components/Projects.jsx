@@ -24,7 +24,7 @@ function Projects() {
           <div className="p-8">
             <div className="flex justify-between items-start mb-6">
               <div className="p-3 bg-brandGreen/10 rounded-2xl">
-                <FaChartLine className="text-2xl text-brandGreen" />
+                <FaChartLine className="text-2xl text-brandLight" />
               </div>
               <div className="flex space-x-2">
                 <a
@@ -59,7 +59,7 @@ function Projects() {
           <div className="p-8">
             <div className="flex justify-between items-start mb-6">
               <div className="p-3 bg-brandGreen/10 rounded-2xl">
-                <FaEnvelopeOpenText className="text-2xl text-brandGreen" />
+                <FaEnvelopeOpenText className="text-2xl text-brandLight" />
               </div>
               <div className="flex space-x-2">
                 <a
