@@ -18,7 +18,6 @@ function Navbar() {
 
           <FaCode className="text-brand-light text-lg" />
           <div className="flex items-baseline">
-            {/*<h1></h1>*/}
             <span className="font-semibold text-white tracking-tight">Hawasly</span>
             <span className="ml-1 text-brand-light/60 font-medium">Code</span>
           </div>

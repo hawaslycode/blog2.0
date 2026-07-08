@@ -7,7 +7,7 @@ function About() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-7 space-y-6">
             <div className="inline-block px-3 py-1 bg-brandGreen/10 border border-brandGreen/20 rounded-full">
-              <span className="text-brandGreen text-xs font-mono font-bold uppercase tracking-wider">
+              <span className="text-brandGren text-xs font-mono font-bold uppercase tracking-wider">
                 Perfil Profesional
               </span>
             </div>

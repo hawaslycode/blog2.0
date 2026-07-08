@@ -11,6 +11,7 @@ export default {
         brandGreen: '#2B5748',  // verde principal
         brandMedium: '#618764', // verde medio
         brandLight: '#9CB080',  // verde claro
+        brandText: '#f3af3c', // naranja claro textos
       },
     },
   },
