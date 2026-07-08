@@ -2,18 +2,16 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}", // <--- Esto le dice que busque en TODO src (incluyendo components)
   ],
   theme: {
     extend: {
       colors: {
-        brand: {
-          light: '#9CB080',    // Verde claro / Oliva suave
-          medium: '#618764',   // Verde medio / Musgo
-          dark: '#2B5748',     // Verde bosque / Oscuro profundo
-          deep: '#273338',     // Gris oscuro verdoso / Fondo o texto principal
-        }
-      }
+        brandDark: '#273338',   // Tu color oscuro de fondo (Imagen 4)
+        brandGreen: '#2B5748',  // Tu verde principal
+        brandMedium: '#618764', // Tu verde medio
+        brandLight: '#9CB080',  // Tu verde claro
+      },
     },
   },
   plugins: [],
