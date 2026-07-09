@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        brandDark: '#273338',   // color oscuro de fondo 
-        brandGreen: '#2B5748',  // verde principal
-        brandMedium: '#618764', // verde medio
-        brandLight: '#9CB080',  // verde claro
-        brandText: '#f3af3c', // naranja claro textos
+        brandDark: '#273338',   
+        brandGreen: '#2B5748',
+        brandMedium: '#618764',
+        brandLight: '#9CB080',  
+        // Tus nuevos colores profesionales de acento:
+        accentOrange: '#e65a1f', // Naranja enérgico para botones de acción principal
+        accentWarm: '#f2a65a',   // Dorado cálido para estados hover, textos destacados o bordes premium
       },
     },
   },
