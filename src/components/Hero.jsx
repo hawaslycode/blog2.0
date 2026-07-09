@@ -16,7 +16,7 @@ function Hero() {
 
           <div className="relative w-48 h-48 md:w-56 md:h-56 bg-brandDark rounded-full p-1 overflow-hidden border border-white/10 shadow-2xl">
             <img
-              src="Assets/perfil.jpg"
+              src="perfil.jpg"
               alt="Johan David Méndez Hawasly"
               className="w-full h-full object-cover rounded-full transform group-hover:scale-110 transition duration-700 ease-out"
             />
